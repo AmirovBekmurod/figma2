@@ -1,0 +1,121 @@
+/* FONTS */
+
+/* ROOT */
+:root {
+    /* colors */
+    --colorPrimary: #fff;
+    --colorSecondary: #fff;
+    /* backgrounds */
+    --backgroundPrimary: #fff;
+    --backgroundSecondary: #fff;
+    /* btn colors */
+    --btnPrimary: #fff;
+    --btnHover: #000;
+    --btnDisabled: #fff;
+    /* fonts */
+    --fontPrimary: Arial, Helvetica, sans-serif;
+    --fontWeight: 400;
+    --fontSize: 12px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #0E1014;
+}
+
+main {
+    flex-grow: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.fraunces {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 40px;
+    font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+
+
+
+.barlow {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.site-header1 {
+    width: 630px;
+    height: 500px;
+}
+
+.site-header {
+    background-image: url(./images/glass.png);
+    width: 630px;
+    height: 700px;
+    top: -1px;
+    left: -5px;
+    gap: 0px;
+    opacity: 0px;
+    display: block;
+}
+.site-header2{
+    padding-left: 70px;
+    padding-top: 30px;
+}
